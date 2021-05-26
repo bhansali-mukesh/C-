@@ -44,13 +44,13 @@ int main()
 							{
 								float a7X7[7][7] = 
 								{
-									{middle + 17, middle + 19, middle - 26, middle -18, middle + 20, middle - 27, middle + 15},
-									{middle - 21, middle + 7, middle + 9, middle - 8, middle - 13, middle + 5, middle + 21},
-									{middle + 28, middle - 10, middle + 3, middle - 4, middle + 1, middle + 10, middle -28},
-									{middle - 16, middle - 6, middle - 2, middle, middle + 2,middle + 26, middle + 16}, 
-									{middle - 22, middle +14 , middle - 1, middle + 4, middle - 3, middle -14, middle + 22},
-									{middle + 29, middle - 5, middle - 9, middle + 8, middle + 13, middle - 7, middle -29},
-									{middle  - 15, middle - 19, middle + 26, middle + 18, middle - 20, middle + 27, middle - 17}
+									{middle+15, middle-26, middle-17, middle+16, middle-18, middle+19, middle+11},
+									{middle-20, middle+7, middle+9, middle-8, middle-13, middle+5, middle+20},
+									{middle-21, middle-10, middle+3, middle-4, middle+1, middle+10, middle+21},
+									{middle-12, middle-6, middle-2, middle, middle + 2, middle+6, middle+12},
+									{middle+24, middle+14, middle-1, middle+4, middle-3,	middle-14, middle-24},
+									{middle+25, middle-5, middle-9, middle+8, middle+13, middle-7, middle-25},
+									{middle-11, middle+26, middle+17, middle-16, middle+18, middle-19, middle-15}
 								};
 								int dimension = (7 - Validated_Choice)/2;
 								cout<<"\n\n\t";
